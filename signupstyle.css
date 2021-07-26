@@ -21,7 +21,7 @@ body {
 
 body .wrapper {
     width: 600px;
-    padding: 30px;
+    padding: 20px;
     border-radius: 20px;
     background: #dad2d2;
     box-shadow: -33px -33px 66px #bbb5b5, 33px 33px 66px #f9efef;
@@ -184,10 +184,25 @@ body .wrapper .forgot a {
     body .wrapper {
         width: 80%;
     }
+    .login {
+        flex-direction: column;
+    }
+    .login .log {
+        width: 80%;
+    }
+    body .wrapper .input .in {
+        height: 30px;
+    }
+    .login .log {
+        height: 35px;
+    }
+}
+
+@media only screen and (max-width:480px) {
     body .wrapper .field {
         flex-direction: column;
     }
-    .login {
-        flex-direction: column;
+    body .wrapper .forgot {
+        font-size: 15px;
     }
 }
